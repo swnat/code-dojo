@@ -21,4 +21,10 @@ public class test {
         Assert.assertEquals("Buzz", fizzBuzz.multiploCinco(5));
     }
 
+    @Test
+    public void Check3and5(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("FizzBuzz", fizzBuzz.multiploCincoAndTres(15));
+    }
+
 }
