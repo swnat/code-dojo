@@ -6,6 +6,6 @@ public class test {
     @Test
     public void getNumberTest() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        Assert.assertEquals(1, fizzBuzz.getNumber(1));
+        Assert.assertEquals(1, fizzBuzz.getNumber());
     }
 }
