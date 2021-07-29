@@ -26,6 +26,12 @@ public class test {
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("FizzBuzz", fizzBuzz.getNumber(15));
     }
+
+    @Test
+    public void getFizzDigito(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("Fizz", fizzBuzz.getNumber(23));
+    }
 }
 
 

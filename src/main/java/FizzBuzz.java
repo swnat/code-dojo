@@ -12,6 +12,14 @@ public class FizzBuzz {
             return "FizzBuzz";
         }
 
+        String x = Integer.toString(i);
+        int j;
+        for (j=0; j<x.length(); j++){
+            if ("3".equals(x.charAt(j))) {
+                return "Fizz";
+            }
+        }
+
         return String.valueOf(i);
     }
 
