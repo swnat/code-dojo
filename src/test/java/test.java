@@ -15,4 +15,11 @@ public class test {
         Assert.assertEquals("Fizz", fizzBuzz.getNumber(3));
     }
 
+    @Test
+    public void getBuzzTest(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("Buzz", fizzBuzz.getNumber(5));
+    }
 }
+
+
