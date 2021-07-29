@@ -16,4 +16,10 @@ private     FizzBuzz fizzBuzz = new FizzBuzz();
         fizzBuzz = new FizzBuzz();
         Assert.assertEquals("Buzz", fizzBuzz.multiplos(5));
     }
+
+    @Test
+    public void getNumberTest3(){
+        fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("FizzBuzz", fizzBuzz.multiplos(15));
+    }
 }
