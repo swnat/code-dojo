@@ -16,13 +16,13 @@ public class test {
     }
 
     @Test
-    public void Check5(){
+    public void CheckCinco(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("Buzz", fizzBuzz.multiploCinco(5));
     }
 
     @Test
-    public void Check3and5(){
+    public void CheckTresandCinco(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("FizzBuzz", fizzBuzz.multiploCincoAndTres(15));
     }
