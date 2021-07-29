@@ -11,17 +11,6 @@ public class FizzBuzz {
         }
     }
 
-    public String getFizz(int number){
-        return "fizz";
-    }
 
-    public String getBuzz(int number){
-        return "buzz";
-    }
 
-    public String getfizzBuzz(int number){
-        return "FizzBuzz";
-    }
-
-//    public
 }

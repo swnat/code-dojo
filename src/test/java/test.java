@@ -9,20 +9,20 @@ public class test {
     }
 
     @Test
-    public void imprimir(){
+    public void FizzTres(){
         Assert.assertEquals("Fizz", fizzBuzz.getNumber(3));
     }
     @Test
-    public void multiploCinco(){
+    public void BuzzCinco(){
         Assert.assertEquals("Buzz", fizzBuzz.getNumber(5));
     }
     @Test
-    public void multiploCincoTres(){
+    public void FizzBuzzCincoTres(){
         Assert.assertEquals("FizzBuzz", fizzBuzz.getNumber(15));
     }
 
-//    @Test
-//    public void NotFizzBuzz(){
-//        Assert.assertEquals(17, fizzBuzz.getNotFizzBuzz(17));
-//    }
+    @Test
+    public void NotFizzBuzz(){
+        Assert.assertEquals("17", fizzBuzz.getNumber(17));
+    }
 }
