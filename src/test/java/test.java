@@ -5,12 +5,15 @@ public class test {
 private     FizzBuzz fizzBuzz = new FizzBuzz();
 
     @Test
+
     public void getNumber(){
-        Assert.assertEquals("Fizz", fizzBuzz.multiploDeTres());
+        fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("Fizz", fizzBuzz.multiplos(3));
     }
 
     @Test
     public void getNumberTest2(){
-        Assert.assertEquals("Buzz", fizzBuzz.multiploDeCinco());
+        fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("Buzz", fizzBuzz.multiplos(5));
     }
 }
