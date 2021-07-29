@@ -5,19 +5,24 @@ public class test {
     FizzBuzz fizzBuzz = new FizzBuzz();
     @Test
     public void getNumberTest() {
-        Assert.assertEquals(1, fizzBuzz.getNumber(1));
+        Assert.assertEquals("1", fizzBuzz.getNumber(1));
     }
 
     @Test
     public void imprimir(){
-        Assert.assertEquals("fizz", fizzBuzz.getFizz(3));
+        Assert.assertEquals("Fizz", fizzBuzz.getNumber(3));
     }
     @Test
     public void multiploCinco(){
-        Assert.assertEquals("buzz", fizzBuzz.getBuzz(5));
+        Assert.assertEquals("Buzz", fizzBuzz.getNumber(5));
     }
     @Test
     public void multiploCincoTres(){
-        Assert.assertEquals("FizzBuzz", fizzBuzz.getfizzBuzz(15));
+        Assert.assertEquals("FizzBuzz", fizzBuzz.getNumber(15));
     }
+
+//    @Test
+//    public void NotFizzBuzz(){
+//        Assert.assertEquals(17, fizzBuzz.getNotFizzBuzz(17));
+//    }
 }
