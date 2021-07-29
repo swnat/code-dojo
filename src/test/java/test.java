@@ -13,7 +13,12 @@ public class test {
     public void Check3(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("Fizz",fizzBuzz.test2(3));
+    }
 
+    @Test
+    public void Check5(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("Buzz", fizzBuzz.multiploCinco(5));
     }
 
 }

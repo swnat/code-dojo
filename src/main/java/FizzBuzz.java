@@ -12,5 +12,12 @@ public class FizzBuzz {
         return Integer.toString(number);
     }
 
+    public String multiploCinco(int number){
+        if (number % 5 == 0) {
+            value = "Buzz";
+        }
+        return value;
+    }
+
 
 }
