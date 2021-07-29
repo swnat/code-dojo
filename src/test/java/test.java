@@ -10,7 +10,7 @@ public class test {
     }
 
     @Test
-    public void Check3(){
+    public void CheckTres(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("Fizz",fizzBuzz.test2(3));
     }
