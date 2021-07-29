@@ -1,6 +1,6 @@
 public class FizzBuzz {
     public String multiplos(int numero){
-        String valor = "";
+        String valor = String.valueOf(numero);
         if(numero % 3 == 0 && numero % 5 == 0) {
             valor = "FizzBuzz";
         } else if( numero % 3 == 0 ){
@@ -10,4 +10,8 @@ public class FizzBuzz {
         }
         return valor;
     }
+
+
 }
+
+

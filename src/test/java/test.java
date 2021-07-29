@@ -22,4 +22,20 @@ private     FizzBuzz fizzBuzz = new FizzBuzz();
         fizzBuzz = new FizzBuzz();
         Assert.assertEquals("FizzBuzz", fizzBuzz.multiplos(15));
     }
+
+    @Test
+    public void getNumberTest4(){
+        fizzBuzz = new FizzBuzz();
+        for(int i = 1; i<= 100; i++) {
+            if(i % 3 == 0 && i % 5 == 0) {
+                Assert.assertEquals("FizzBuzz", fizzBuzz.multiplos(i));
+            } else if (i % 3 == 0) {
+                Assert.assertEquals("Fizz", fizzBuzz.multiplos(i));
+            } else if (i % 5 == 0) {
+                Assert.assertEquals("Buzz", fizzBuzz.multiplos(i));
+            }
+        }
+
+    }
+
 }
