@@ -16,4 +16,8 @@ public class test {
     public void multiploCinco(){
         Assert.assertEquals("buzz", fizzBuzz.getBuzz(5));
     }
+    @Test
+    public void multiploCincoTres(){
+        Assert.assertEquals("FizzBuzz", fizzBuzz.getfizzBuzz(15));
+    }
 }

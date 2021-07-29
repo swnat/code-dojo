@@ -11,4 +11,8 @@ public class FizzBuzz {
         return "buzz";
     }
 
+    public String getfizzBuzz(int number){
+        return "FizzBuzz";
+    }
+
 }
