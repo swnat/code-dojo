@@ -7,5 +7,8 @@ public class FizzBuzz {
         return "fizz";
     }
 
+    public String getBuzz(int number){
+        return "buzz";
+    }
 
 }
