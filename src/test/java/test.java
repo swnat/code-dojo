@@ -20,6 +20,12 @@ public class test {
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("Buzz", fizzBuzz.getNumber(5));
     }
+
+    @Test
+    public void getFizzBuzz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("FizzBuzz", fizzBuzz.getNumber(15));
+    }
 }
 
 
